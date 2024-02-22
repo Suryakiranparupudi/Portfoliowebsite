@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 9vw;
+    align-items: center;
+}
+
+.name {
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+.menu{
+    font-size: small;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.783);
+    margin: 0 7px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: white;
+    font-size: 1.01rem;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vw;
+    align-items: center;
+    border-bottom: 1px solid rgba(217, 193, 240, 0.249);
+    height: 73vh;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.left{
+    color:white;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+img{
+    height: 49vh;
+    width: 40vw;
+    border: 1px solid rgb(2, 2, 49);
+    border-radius: 5%;
+    margin-bottom: 30px;
+}
+span{
+    color:rgb(12, 47, 186);
+}
+.button{
+    margin-top: 50px;
+}
+#button{
+    background: rgb(29, 29, 29);
+    color: white;
+    border: 2px solid white;
+    border-radius: 35px;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 4px 4px;
+    transition: all .3s ease-in-out;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+#button:hover{
+    color: rgb(12, 47, 186);
+    font-size: 1.1rem;
+    font-weight: 600;
+    filter: drop-shadow(2px  2px 5px rgba(12, 47, 186));
+}
+.about {
+    color: black;
+    padding: 20px 30px;
+    padding-left: 45%;
+    background-color: white;
+    font-size: larger;
+}
+.about{
+    background-color: white;
+}
+.details{
+    background-color: white;
+}
+#det{
+    color: black;
+    font-weight: 900;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+}
+#ed{
+    color:black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 75%;
+}
+#pro{
+    color: black;
+    margin-left: 25vw;
+    margin-right: 20px;
+    font-weight: 900;
+    padding-top: 3vw;
+    font-size: large;
+}
+#proj{
+    color:black;
+    margin-left: 25vw;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 75%;
+}
+.project{
+    height:21vw;
+    background-color: rgb(245, 245, 245);
+}
+.certificates{
+    display: flex;
+    margin-left: 25vw;
+    margin-top: 25px;
+    height: max-content;
+}
+#button1{
+    background:  rgb(245, 245, 245);
+    color: black;
+    border: 2px solid black;
+    border-radius: 35px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 4px 4px;
+    transition: all .3s ease-in-out;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+#button1:hover{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
